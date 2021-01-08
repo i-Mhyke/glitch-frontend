@@ -1,24 +1,15 @@
-# glitch-frontend
+# Glitch Frontend Project Task
 
-## Project setup
+### Implemented design using vue js
+
+### To run this app locally clone the repository and run
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Serve the app on your localhost
+
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
