@@ -21,7 +21,7 @@ export default {
   text-align: center;
   color: #2c3e50;
 
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(90deg, #bd0f4d 50%, #cb2964 50%);
 }
 </style>
