@@ -69,6 +69,7 @@ export default {
   data() {
     return {
       apiData: {},
+      menuOpen: false,
     };
   },
 
@@ -205,6 +206,52 @@ export default {
     }
     100% {
       transform: scale(1);
+    }
+  }
+}
+@media (max-width: 992px) {
+  .header {
+    .heading {
+      h1 {
+        font-size: 1.1rem;
+      }
+    }
+    .nav {
+      a {
+        font-size: 0.8rem;
+        letter-spacing: 3px;
+      }
+    }
+    .side-icons {
+      a {
+        svg {
+          font-size: 25px !important;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 779px) {
+  .header {
+    .heading {
+      h1 {
+        padding: 0;
+      }
+      .menu {
+        display: block;
+      }
+    }
+    .nav {
+      overflow: hidden;
+      overflow-x: scroll;
+      margin: 0;
+      padding: 2rem;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
     }
   }
 }
